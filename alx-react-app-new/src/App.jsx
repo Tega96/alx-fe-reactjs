@@ -1,7 +1,7 @@
-import Header from './Header'
-import MainContent from './MainContent'
+import Header from './components/Header'
+import MainContent from './components/MainContent'
 import WelcomeMessage from './components/WelcomeMessage'
-import Footer from './Footer'
+import Footer from './components/Footer'
 import UserProfile from './components/UserProfile'
 
 
