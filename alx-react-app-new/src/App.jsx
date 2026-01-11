@@ -3,6 +3,7 @@ import MainContent from './components/MainContent'
 import WelcomeMessage from './components/WelcomeMessage'
 import Footer from './components/Footer'
 import UserProfile from './components/UserProfile'
+import Counter from './components/Counter'
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Header />
       <WelcomeMessage />
       <MainContent />
+      <Counter />
       <UserProfile name='Alice' age='25' bio='Loves hiking and photography' />
       <Footer />
     </div>
