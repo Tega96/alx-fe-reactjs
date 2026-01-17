@@ -9,8 +9,7 @@ import UserContext from './components/UserContext'
 
 const App = () => {
 
-  const userData = {name: 'Jane Doe', email: "jane.doe@example.com" };
-
+  const userData = {name: 'Jane Doe', email: "jane.doe@example.com", age: 15, bio: 'Loves hiking and photography'};
   return (
     <div>
       <Header />
@@ -18,8 +17,8 @@ const App = () => {
       <WelcomeMessage />
       <UserContext.Provider value={userData}>
         <ProfilePage  />
+        <UserProfile />
       </UserContext.Provider>
-      <UserProfile name='Alice' age='25' bio='Loves hiking and photography' />
       <Footer />
     </div>
   )
