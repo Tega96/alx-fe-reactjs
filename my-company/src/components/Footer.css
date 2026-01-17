@@ -1,0 +1,14 @@
+.footer-div {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border-top: 2px solid gray;
+    width: 70%
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: red;
+}

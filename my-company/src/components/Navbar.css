@@ -1,0 +1,32 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    padding: 10px;
+}
+.nav-container .logo {
+    font-size: xx-large;
+    padding: 10px;
+    margin-left: 10px;
+    color: navy;
+    font-family:'Courier New', Courier, monospace;
+}
+.link-container {
+    display: flex;
+    gap: 10px;
+}
+.link-container li {
+    list-style: none;
+    display:flex;
+    
+}
+.link-container li a {
+    text-decoration: none;
+    font-size: large;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    color: navy;
+}
