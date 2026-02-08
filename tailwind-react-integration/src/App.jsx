@@ -1,7 +1,11 @@
+import UserProfile from "./components/UserProfile";
+
 
 const App = () => {
   return (
-    <div className="">Hello world</div>
+    <div className="">
+      <UserProfile />
+    </div>
   )
 }
 export default App;
